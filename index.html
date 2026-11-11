@@ -1,0 +1,165 @@
+<!doctype html>
+<!--
+  UNOFFICIAL PREVIEW. Not a SOLO Aquatics website.
+  A replica of https://www.gomotionapp.com/team/solo/page/practices/schedule with the typed
+  "Fall 2024" table replaced by live Pool Relay calendars. No practice time or date is typed
+  into this page: the calendars and the season line below read the same published schedule.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>SOLO Aquatics &mdash; Schedule (Pool Relay preview)</title>
+<meta name="description" content="Unofficial preview of the SOLO Aquatics practice schedule page with live Pool Relay calendars.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --purple:   #4b2e83;   /* the team's link and accent color, from their site */
+    --purple-l: #ccc0d9;   /* their table header */
+    --ink:      #222;
+    --muted:    #666d76;
+    --rule:     #e3e3e3;
+  }
+  *{ box-sizing:border-box }
+  html,body{ margin:0 }
+  body{
+    font:16px/1.6 Lato, Arial, Helvetica, sans-serif; color:var(--ink);
+    background:#dfe6ea url("https://www.gomotionapp.com/solo/site-settings/background/cust-bg-121-1311023488528_037114-tsm-med.jpg") center top / cover fixed;
+  }
+  a{ color:var(--purple) }
+
+  .preview-note{ background:#1b1b1b; color:#fff; font-size:14px; line-height:1.5; padding:9px 18px; text-align:center }
+  .preview-note b{ color:#c9b5f0 }
+  .preview-note a{ color:#fff }
+
+  .top{ display:flex; align-items:center; gap:14px; padding:20px 15px }
+  .top span{ color:var(--purple); font:700 13px/1 Lato, sans-serif; text-transform:uppercase }
+  .top .signin{ margin-left:auto; background:#fff; color:#555; border-radius:4px; padding:10px 14px; font-size:14px }
+
+  nav.site{
+    display:flex; flex-wrap:wrap; border-radius:6px;
+    background:linear-gradient(180deg, #35215d 0%, #201338 100%);
+  }
+  nav.site span{
+    display:block; padding:16px 12px; color:#fff; font:900 14.5px/1.2 Lato, sans-serif;
+    text-transform:uppercase; white-space:nowrap; border-right:1px solid rgba(255,255,255,.08);
+  }
+  nav.site .here{ color:#9b7fd6 }
+
+  .sheet{ background:#fff; border-radius:6px 6px 0 0; margin-top:30px }
+  main{ padding:30px 30px 34px; max-width:1240px }
+  h1{ font:900 22px/1.25 Lato, sans-serif; color:var(--ink); margin:0 0 6px }
+  .season{ margin:0 0 18px; color:var(--muted) }
+  .season.ready{ color:var(--ink) }
+  h2{ font:900 18px/1.3 Lato, sans-serif; color:var(--ink); margin:30px 0 10px }
+
+  .cal-head{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; margin:0 0 12px }
+  .cal-head h2{ margin:0 }
+  .live{ font:900 11px/1 Lato, sans-serif; letter-spacing:.12em; text-transform:uppercase; color:#fff; background:var(--purple); padding:5px 11px; border-radius:3px }
+  .frame{ border:1px solid var(--rule); border-radius:4px; overflow:hidden; background:#fff; box-shadow:0 10px 26px rgba(32,19,56,.16) }
+  .frame iframe{ display:block; width:100%; height:760px; border:0 }
+  @media (max-width:760px){ .frame iframe{ height:620px } }
+  .cal-foot{ font-size:15px; color:var(--muted); margin:10px 0 0 }
+
+  .replaces{ background:#f5f3f8; border-top:1px solid var(--rule); padding:26px 30px 30px }
+  .replaces h2{ margin-top:0 }
+  .replaces ul{ margin:0; padding-left:22px; color:#444; font-size:15px; max-width:1100px }
+  .replaces li{ margin-bottom:11px }
+
+  footer.site{
+    background:linear-gradient(180deg, #492d7f 0%, #000 100%); color:#ddd; padding:28px 30px; font-size:13.5px;
+    display:flex; align-items:center; gap:30px; flex-wrap:wrap;
+  }
+  footer.site img{ width:230px; height:auto; background:#fff }
+  footer.site a{ color:#fff }
+  footer.site .fine{ flex:1; min-width:260px; margin:0 }
+
+  @media (max-width:760px){
+    .top span:not(.signin){ display:none }
+    nav.site span{ padding:11px 9px; font-size:13px }
+    main, .replaces, footer.site{ padding-left:18px; padding-right:18px }
+  }
+</style>
+</head>
+<body>
+
+<div class="preview-note">
+  <b>Unofficial preview.</b> Not a SOLO Aquatics page &mdash; a mock-up of
+  <a href="https://www.gomotionapp.com/team/solo/page/practices/schedule" target="_blank" rel="noopener noreferrer">the team&rsquo;s Schedule page</a>
+  with the typed practice table replaced by live calendars.
+</div>
+
+<div class="top">
+  <span>Coaches</span><span>Site Map</span>
+  <span class="signin">&#10140; Sign in</span>
+</div>
+
+<nav class="site">
+  <span>Home</span><span>Calendar</span><span class="here">Practices &#8964;</span><span>Programs &#8964;</span>
+  <span>Register &amp; Fees &#8964;</span><span>Member Info &#8964;</span><span>Photos</span><span>Events &#8964;</span>
+  <span>About Our Team</span><span>Sarah Winters</span><span>USA Swimming SOLO Link &#8964;</span>
+  <span>Pacific Swimming &amp; SOLO Travel Policy &#8964;</span>
+</nav>
+
+<div class="sheet">
+  <main>
+    <h1>Practice Schedules</h1>
+    <p class="season" data-live="through" data-view="aTB6o4WtcGDaYWXfG2knOA" data-empty="">Loading the season&hellip;</p>
+
+    <div class="cal-head">
+      <h2>Every group, day by day</h2>
+      <span class="live">Live</span>
+    </div>
+    <div class="frame">
+      <iframe src="https://www.poolrelay.com/embed/aTB6o4WtcGDaYWXfG2knOA" title="SOLO Aquatics practices by group"></iframe>
+    </div>
+    <p class="cal-foot">One column per group, Racers I through Senior &mdash; the same order as the old
+      table, but for the actual day. The arrows move day by day, so a Saturday shows only the groups
+      that swim Saturday.</p>
+
+    <div class="cal-head" style="margin-top:34px">
+      <h2>Your swimmer&rsquo;s week</h2>
+      <span class="live">Live</span>
+    </div>
+    <div class="frame">
+      <iframe src="https://www.poolrelay.com/embed/of91jvhRnmTObuHuW2GrMX" title="SOLO Aquatics practice week for one group"></iframe>
+    </div>
+    <p class="cal-foot">Pick your swimmer&rsquo;s group under <strong>Teams</strong> and the week shows
+      only its practices, Saturdays included. <strong>Subscribe</strong> puts that group in your
+      phone&rsquo;s calendar, or emails you when its schedule changes.</p>
+  </main>
+
+  <div class="replaces">
+    <h2>What this replaces</h2>
+    <ul>
+      <li><strong>A table titled &ldquo;Fall 2024&rdquo;.</strong> The live page still says the
+        schedule begins Tuesday, September 4, 2024. A family can&rsquo;t tell whether those times
+        still hold. These calendars open on this week and are the schedule the coaches keep now.</li>
+      <li><strong>No dates at all.</strong> A weekday table can&rsquo;t say when the season ends or
+        that a holiday is off. The calendar leaves out the days there is no practice, and the line
+        under the heading says how far the schedule runs.</li>
+      <li><strong>Retyping every season.</strong> Each change means editing a table cell by hand. Here
+        a coach changes the practice once, in Pool Relay, and this page, the pool&rsquo;s schedule and
+        every subscribed phone follow.</li>
+      <li><strong>Changes nobody hears about.</strong> When a practice moves, families who subscribed
+        to their group get the change in their calendar and an email, without anyone posting it.</li>
+      <li><strong>Phones.</strong> A seven-column table is a sideways scroll on a phone. On a narrow
+        screen the calendar opens as a list.</li>
+    </ul>
+  </div>
+
+  <footer class="site">
+    <img src="https://www.gomotionapp.com/solo/team-logo/default/teamlogo-121-1306515024779_016023-t-thumb.jpg" alt="SOLO Aquatics">
+    <p class="fine">This page is an unofficial preview built to demonstrate embedded
+      <a href="https://www.poolrelay.com" target="_blank" rel="noopener noreferrer">Pool Relay</a> calendars. It is not
+      operated by or affiliated with SOLO Aquatics or SportsEngine. For official practice times see
+      <a href="https://www.gomotionapp.com/team/solo/page/practices/schedule" target="_blank" rel="noopener noreferrer">the team&rsquo;s own site</a>.</p>
+  </footer>
+</div>
+
+<script src="live.js" defer></script>
+</body>
+</html>
